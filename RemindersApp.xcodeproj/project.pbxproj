@@ -13,6 +13,7 @@
 		537D28FF29A927CB00C5429B /* MyLiistCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D28FE29A927CB00C5429B /* MyLiistCellView.swift */; };
 		537D290129A92A4D00C5429B /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D290029A92A4D00C5429B /* PreviewData.swift */; };
 		537D290329A93AC900C5429B /* MyListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D290229A93AC900C5429B /* MyListDetailView.swift */; };
+		537D290529A977B100C5429B /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D290429A977B100C5429B /* ReminderListView.swift */; };
 		538AC6C429A6845800BF9B85 /* RemindersAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AC6C329A6845800BF9B85 /* RemindersAppApp.swift */; };
 		538AC6C629A6845800BF9B85 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AC6C529A6845800BF9B85 /* HomeView.swift */; };
 		538AC6C829A6845800BF9B85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538AC6C729A6845800BF9B85 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		537D28FE29A927CB00C5429B /* MyLiistCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLiistCellView.swift; sourceTree = "<group>"; };
 		537D290029A92A4D00C5429B /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		537D290229A93AC900C5429B /* MyListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListDetailView.swift; sourceTree = "<group>"; };
+		537D290429A977B100C5429B /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
 		538AC6C029A6845800BF9B85 /* RemindersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		538AC6C329A6845800BF9B85 /* RemindersAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersAppApp.swift; sourceTree = "<group>"; };
 		538AC6C529A6845800BF9B85 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				537D28FC29A9254200C5429B /* MyListsView.swift */,
 				537D28FE29A927CB00C5429B /* MyLiistCellView.swift */,
 				537D290229A93AC900C5429B /* MyListDetailView.swift */,
+				537D290429A977B100C5429B /* ReminderListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				538AC6D929A68BC800BF9B85 /* MyList+CoreDataClass.swift in Sources */,
 				538AC6D329A684A400BF9B85 /* CoreDataProvider.swift in Sources */,
 				537D28FD29A9254200C5429B /* MyListsView.swift in Sources */,
+				537D290529A977B100C5429B /* ReminderListView.swift in Sources */,
 				531DE6BB29A7E3D40058F8CA /* ReminderService.swift in Sources */,
 				537D290329A93AC900C5429B /* MyListDetailView.swift in Sources */,
 			);

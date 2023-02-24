@@ -34,6 +34,7 @@ struct MyListsView: View {
               .navigationTitle(myList.name)
           }
       }
+      
     }
   }
 }

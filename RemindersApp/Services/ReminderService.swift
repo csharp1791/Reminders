@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import UIKit
 import CoreData
+import UIKit
 
 class ReminderService {
   
@@ -30,6 +30,14 @@ class ReminderService {
     let reminder = Reminder(context: viewContext)
     reminder.title = reminderTitle
     myList.addToReminders(reminder)
-    try? save()
+    try save()
   }
+  
+  static func getRemindersByList(myList: MyList) -> NSFetchRequest<Reminder> {
+    let request = Reminder.fetchRequest()
+    request.sortDescriptors = []
+    request.predicate = NSPredicate(format: "list = %@ AND isCompleted = false", myList)
+    return request
+  }
+  
 }

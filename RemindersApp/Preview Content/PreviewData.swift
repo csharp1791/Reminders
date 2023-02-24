@@ -15,4 +15,5 @@ class PreviewData {
     let request = MyList.fetchRequest()
     return (try? viewContext.fetch(request).first) ?? MyList()
   }
+  
 }
