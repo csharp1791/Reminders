@@ -24,6 +24,8 @@
 		538AC6DB29A68BEF00BF9B85 /* MyList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AC6DA29A68BEF00BF9B85 /* MyList+CoreDataProperties.swift */; };
 		538AC6DE29A6921700BF9B85 /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AC6DD29A6921700BF9B85 /* AddNewListView.swift */; };
 		538AC6E029A697B700BF9B85 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AC6DF29A697B700BF9B85 /* ColorPickerView.swift */; };
+		53AB057D29AA69590040CE59 /* ReminderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AB057C29AA69590040CE59 /* ReminderCellView.swift */; };
+		53AB058029AA75C70040CE59 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AB057F29AA75C70040CE59 /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		538AC6DA29A68BEF00BF9B85 /* MyList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		538AC6DD29A6921700BF9B85 /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
 		538AC6DF29A697B700BF9B85 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		53AB057C29AA69590040CE59 /* ReminderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCellView.swift; sourceTree = "<group>"; };
+		53AB057F29AA75C70040CE59 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 		538AC6C229A6845800BF9B85 /* RemindersApp */ = {
 			isa = PBXGroup;
 			children = (
+				53AB057E29AA75930040CE59 /* Extensions */,
 				531DE6BC29A7E79F0058F8CA /* Transformers */,
 				531DE6B929A7E3A10058F8CA /* Services */,
 				538AC6DC29A691BD00BF9B85 /* Views */,
@@ -142,8 +147,17 @@
 				537D28FE29A927CB00C5429B /* MyLiistCellView.swift */,
 				537D290229A93AC900C5429B /* MyListDetailView.swift */,
 				537D290429A977B100C5429B /* ReminderListView.swift */,
+				53AB057C29AA69590040CE59 /* ReminderCellView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		53AB057E29AA75930040CE59 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				53AB057F29AA75C70040CE59 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,11 +232,13 @@
 			files = (
 				538AC6E029A697B700BF9B85 /* ColorPickerView.swift in Sources */,
 				538AC6C629A6845800BF9B85 /* HomeView.swift in Sources */,
+				53AB057D29AA69590040CE59 /* ReminderCellView.swift in Sources */,
 				537D28FF29A927CB00C5429B /* MyLiistCellView.swift in Sources */,
 				538AC6D729A6893000BF9B85 /* RemindersModel.xcdatamodeld in Sources */,
 				537D290129A92A4D00C5429B /* PreviewData.swift in Sources */,
 				531DE6BE29A7E7D40058F8CA /* UIColorTransformer.swift in Sources */,
 				538AC6C429A6845800BF9B85 /* RemindersAppApp.swift in Sources */,
+				53AB058029AA75C70040CE59 /* Date+Extensions.swift in Sources */,
 				538AC6DB29A68BEF00BF9B85 /* MyList+CoreDataProperties.swift in Sources */,
 				538AC6DE29A6921700BF9B85 /* AddNewListView.swift in Sources */,
 				538AC6D929A68BC800BF9B85 /* MyList+CoreDataClass.swift in Sources */,
