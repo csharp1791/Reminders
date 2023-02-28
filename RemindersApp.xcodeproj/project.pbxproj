@@ -75,6 +75,7 @@
 		5301C69829ABE00600D05716 /* EditConfigs */ = {
 			isa = PBXGroup;
 			children = (
+				5301C69929ABE03000D05716 /* ReminderEditConfig.swift */,
 			);
 			path = EditConfigs;
 			sourceTree = "<group>";
@@ -161,7 +162,6 @@
 				538AC6D529A6893000BF9B85 /* RemindersModel.xcdatamodeld */,
 				538AC6D829A68BC800BF9B85 /* MyList+CoreDataClass.swift */,
 				538AC6DA29A68BEF00BF9B85 /* MyList+CoreDataProperties.swift */,
-				5301C69929ABE03000D05716 /* ReminderEditConfig.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
