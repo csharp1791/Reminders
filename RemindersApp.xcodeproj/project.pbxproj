@@ -32,6 +32,7 @@
 		53C1632129AFDBE30052F8D4 /* ReminderStatsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C1632029AFDBE30052F8D4 /* ReminderStatsBuilder.swift */; };
 		53C1632329B00B3F0052F8D4 /* ReminderStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C1632229B00B3F0052F8D4 /* ReminderStatsView.swift */; };
 		53C52AC829AA949D0086A509 /* ReminderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C52AC729AA949D0086A509 /* ReminderDetailView.swift */; };
+		53F39F6129B122CF00CB1FC2 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F39F6029B122CF00CB1FC2 /* NotificationManager.swift */; };
 		53F84A6729AD30D500040969 /* SelectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F84A6629AD30D500040969 /* SelectListView.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		53C1632029AFDBE30052F8D4 /* ReminderStatsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStatsBuilder.swift; sourceTree = "<group>"; };
 		53C1632229B00B3F0052F8D4 /* ReminderStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStatsView.swift; sourceTree = "<group>"; };
 		53C52AC729AA949D0086A509 /* ReminderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailView.swift; sourceTree = "<group>"; };
+		53F39F6029B122CF00CB1FC2 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		53F84A6629AD30D500040969 /* SelectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 		538AC6C229A6845800BF9B85 /* RemindersApp */ = {
 			isa = PBXGroup;
 			children = (
+				53F39F5F29B1224C00CB1FC2 /* Manager */,
 				5301C69B29ABE39900D05716 /* Utils */,
 				53AB057E29AA75930040CE59 /* Extensions */,
 				531DE6BC29A7E79F0058F8CA /* Transformers */,
@@ -195,6 +198,14 @@
 				53AB057F29AA75C70040CE59 /* Date+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		53F39F5F29B1224C00CB1FC2 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				53F39F6029B122CF00CB1FC2 /* NotificationManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +300,7 @@
 				538AC6D329A684A400BF9B85 /* CoreDataProvider.swift in Sources */,
 				537D28FD29A9254200C5429B /* MyListsView.swift in Sources */,
 				537D290529A977B100C5429B /* ReminderListView.swift in Sources */,
+				53F39F6129B122CF00CB1FC2 /* NotificationManager.swift in Sources */,
 				531DE6BB29A7E3D40058F8CA /* ReminderService.swift in Sources */,
 				537D290329A93AC900C5429B /* MyListDetailView.swift in Sources */,
 			);
