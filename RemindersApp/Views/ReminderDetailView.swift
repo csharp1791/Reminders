@@ -102,7 +102,7 @@ struct ReminderDetailView: View {
     }
   }
 }
-
+//
 struct ReminderDetailView_Previews: PreviewProvider {
   static var previews: some View {
     ReminderDetailView(reminder: .constant(PreviewData.reminder))
